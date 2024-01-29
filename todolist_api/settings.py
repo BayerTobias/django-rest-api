@@ -128,5 +128,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
 MEDIA_ROOT = "/home/tbaye/todolist_api/media"
 MEDIA_URL = "/media/"
-STATIC_ROOT = "/home/tbaye/todolist_api/static"
+STATIC_ROOT = "./static"
 STATIC_URL = "/static/"
