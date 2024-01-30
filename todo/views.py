@@ -21,5 +21,6 @@ class TodoViewSet(viewsets.ModelViewSet):
             description=request.data.get("description", ""),
             user=request.user,
         )
+        # POST statt data wenn form data
         serialized_obj = serializers.serialize("json", [todo])
         return HttpResponse(serialized_obj, content_type="application/json")
